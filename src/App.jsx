@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Nabvar from './Components/Nabvar/Nabvar';
+import Question from './Question/Question';
 
 const App = () => {
   const [data, userData] = useState([]);
@@ -97,7 +98,7 @@ const App = () => {
           </div>
         </div>
       </div>
-
+    <Question></Question>
     </>
   );
 };
