@@ -3,9 +3,9 @@ import React from 'react';
 const Nabvar = () => {
       return (
             <>
-                  <div className="navbar bg-base-100">
+                  <div className="navbar bg-base-100 lg:w-[80%] m-4 mx-auto rounded-lg text-amber-50" >
                         <div className="flex-1">
-                              <a className="btn btn-ghost normal-case text-xl">Knowledge Cafe</a>
+                              <a className="btn btn-ghost normal-case text-xl">Knowledge Club</a>
                         </div>
                         <div className="flex-none gap-2">
                             
