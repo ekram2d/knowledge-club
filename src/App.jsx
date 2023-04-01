@@ -1,4 +1,5 @@
 import React from 'react';
+import Nabvar from './Components/Nabvar/Nabvar';
 
 const App = () => {
 
@@ -6,7 +7,7 @@ const App = () => {
   return (
     <>
      
-
+   <Nabvar></Nabvar>
 
     </>
   );
