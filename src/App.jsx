@@ -3,19 +3,22 @@ import Nabvar from './Components/Nabvar/Nabvar';
 
 const App = () => {
   const [data, userData] = useState([]);
+  const[time,setTime]=useState(0);
   useEffect(() => {
     fetch("data.json")
       .then(res => res.json())
       .then((data) => userData(data));
   }, [])
 
-
   const clcick=(id)=>{
     console.log(id);
   }
-  const  mark=(time)=>{
-    console.log(time);
+  const  mark=(time1)=>{
+   let i=time+time1;
+   setTime(i);
   }
+
+ 
   return (
     <>
 
@@ -61,7 +64,9 @@ const App = () => {
 
         {/* second part  */}
         <div>
-          second
+          <div className='border rounded-lg p-2'>
+            <p>Spent time on read: {time} min</p>
+          </div>
         </div>
       </div>
 
