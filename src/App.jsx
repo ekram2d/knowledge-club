@@ -41,17 +41,27 @@ const App = () => {
   // totast 
   const showToastMessage = () => {
     toast.error('Already Exists!!!', {
-        position: toast.POSITION.TOP_RIGHT
+      position: toast.POSITION.TOP_RIGHT
     });
-};
+  };
 
 
   return (
     <>
 
+
+      {/* navbar section ....................................................... */}
+
+
       <Nabvar></Nabvar>
       <ToastContainer />
-      {/* first part  */}
+
+
+
+      {/* first part ............................ */}
+
+
+
       <div className='lg:flex justify-around'>
 
         <div>
@@ -90,7 +100,9 @@ const App = () => {
           }
         </div>
 
-        {/* second part  */}
+
+
+        {/* second part ..................................... */}
         <div>
           <div className='border rounded-lg p-2 w-full '>
             <p>Spent time on read: {time} min</p>
@@ -111,6 +123,15 @@ const App = () => {
           </div>
         </div>
       </div>
+
+
+
+
+      {/* qustion section ------------------------------------ */}
+
+
+
+
       <Question></Question>
 
     </>
