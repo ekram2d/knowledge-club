@@ -2,9 +2,9 @@ import React from 'react';
 
 const Question = () => {
       return (
-            <div className='w-[80%] mx-auto m-4'>
+            <div className='w-[80%] mx-auto m-4 '>
                   <h1 className='text-3xl text-center p-4'>Queation & Answer part </h1>
-                  <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                  <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-black rounded-box m-2 text-white">
                         <div className="collapse-title text-xl font-medium">
                               <p>1: Props vs state</p>
                         </div>
@@ -21,7 +21,7 @@ const Question = () => {
                               </p>
                         </div>
                   </div>
-                  <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                  <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-black rounded-box m-2 text-white">
                         <div className="collapse-title text-xl font-medium">
                               2: How does useState work?
                         </div>
@@ -33,7 +33,7 @@ const Question = () => {
 
                         </div>
                   </div>
-                  <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                  <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-black rounded-box m-2 text-white">
                         <div className="collapse-title text-xl font-medium">
                               3: Purpose of useEffect without fetching datant
                         </div>
@@ -51,7 +51,7 @@ const Question = () => {
                               <p>Managing timers: useEffect can be used to set up and manage timers or intervals for tasks that need to be repeated at regular intervals. For example, you might want to set up a timer to automatically refresh a list of items every few minutes</p>
                         </div>
                   </div>
-                  <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                  <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-black rounded-box m-2 text-white">
                         <div className="collapse-title text-xl font-medium">
                               4: How does React work
                         </div>
